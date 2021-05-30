@@ -9,12 +9,15 @@
     background-size: 100% 100%;
 }
 .title{
+  padding-top: 20px;
     text-align: center;
     color: #2479c0;
+    font-weight: bold;
 }
 .description{
     text-align: center;
     color: #6d99c0;
+    font-weight:600;
 }
 
 
@@ -101,6 +104,8 @@
 .card{
   position: relative;
   width: 16rem!important;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
 }
 .card-img-top{
   position: relative;
